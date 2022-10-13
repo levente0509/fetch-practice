@@ -1,5 +1,5 @@
 const apiKey = "a27xS6s9Dn5XIP3f0B78SekAWPtn5uF5946sjdEE";
-let apiDate = "2022-10-10";
+let apiDate = "2022-05-30";
 let fetchUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${apiDate}`;
 
 fetch(fetchUrl);
